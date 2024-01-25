@@ -1,0 +1,58 @@
+.container {
+    margin: 100px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: 550;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container span {
+    opacity: 0;
+    display: inline-block;
+    animation: drop 0.5s forwards;
+}
+@keyframes drop {
+    0% {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.container .letterk { 
+    animation-delay: 0.5s ;
+}
+.container .letterr { 
+    animation-delay: 1s ;
+}
+.container .letteri { 
+    animation-delay: 1.5s ;
+}
+.container .letters { 
+    animation-delay: 2s ;
+}
+.container .letterh{ 
+    animation-delay: 2.5s ;
+}
+.container .lettern{ 
+    animation-delay: 3s ;
+}
+.container .lettera{ 
+    animation-delay: 3.5s ;
+}
+.container .letterm{ 
+    animation-delay: 4s ;
+}
+.container .lettero{ 
+    animation-delay: 4.5s ;
+}
+.container .letterH{ 
+    animation-delay: 5s ;
+}
+.container .letterA{ 
+    animation-delay: 5.5s ;
+}
+.container .letterN{ 
+    animation-delay: 6s ;
+}
